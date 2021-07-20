@@ -1,0 +1,243 @@
+            * {
+                margin: 0px;
+                padding: 0px;
+                overflow-x: hidden;
+            }
+            
+            @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+            @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+            .background {
+                background: rgba(0, 0, 0, 12%) url(../img/concert_bg_pic.jpg);
+                background-size: cover;
+                background-blend-mode: darken;
+                height: 100vh;
+            }
+            
+            .nav-header {
+                display: flex;
+                align-items: center;
+                transform: translate(0px, -20px);
+            }
+            
+            .logo-header {
+                width: 16%;
+                display: flex;
+                align-items: center;
+                transform: translate(-34px, 0px);
+            }
+            
+            .nav-header img {
+                width: 146px;
+            }
+            
+            .logo-header div {
+                transform: translate(-44px, 0px);
+                font-family: "Roboto", sans-serif;
+                font-size: 20px;
+                font-weight: 900;
+                color: white;
+                padding: 0px;
+                margin: 0px;
+            }
+            
+            .navigation-items-list {
+                display: flex;
+                list-style: none;
+            }
+            
+            .navigation-items-list li a {
+                text-decoration: none;
+                color: white;
+                padding: 0px 33px;
+                font-family: "Open Sans", sans-serif;
+                font-weight: 700;
+            }
+            
+            .header-socialMedia-icons {
+                display: flex;
+            }
+            
+            .header-socialMedia-icons img {
+                width: 25px;
+                height: 25px;
+                padding: 6px 7px;
+                background-color: white;
+                border-radius: 50%;
+                margin: 0px 14px;
+            }
+            
+            .para-container1 {
+                color: white;
+                justify-content: center;
+                display: flex;
+                font-size: 80px;
+                font-family: "Roboto", sans-serif;
+                width: 30%;
+                text-align: center;
+                transform: translate(480px, 90px);
+            }
+            
+            .container2 {
+                background: black;
+                background-size: cover;
+                background-blend-mode: darken;
+            }
+            
+            .container2 {
+                display: flex;
+            }
+            
+            .contact-group {
+                height: 50%;
+                color: white;
+                max-width: 40%;
+                width: 80%;
+                margin: 48px 12px;
+                padding: 4px;
+            }
+            
+            .in-contact-grp {
+                display: flex;
+                padding: 0px;
+                margin: 0px;
+            }
+            
+            .findUs-callUs,
+            .workingHours-writeToUs {
+                display: flex;
+                margin: 22px;
+            }
+            
+            .location-icon,
+            .call-icon,
+            .working-hours-icon,
+            .mail-icon {
+                /* border: 2px solid red; */
+                height: 48%;
+                width: 20%;
+            }
+            
+            .head-para-c2 {
+                padding: 0px 0px 0px 15px;
+                /* transform: translate(0px, 12px); */
+            }
+            
+            .head-para-c2 span {
+                font-size: 20px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                /* line-height: 30px; */
+                font-weight: lighter;
+                letter-spacing: 1.5px;
+            }
+            
+            .head-para-c2 div {
+                margin: 22px 0px;
+                padding: 4px 0px;
+                font-size: 14px;
+            }
+            
+            .user-details-group {
+                /* border: 2px solid red; */
+                width: 40%;
+                margin: 60px 12px;
+                max-width: 40%;
+                padding: 4px;
+                height: 50%;
+                position: absolute;
+                right: -30px;
+            }
+            
+            #yourName,
+            #yourMail {
+                padding: 14px;
+                width: 32%;
+                margin: 7px;
+            }
+            
+            #yourMessage {
+                width: 76.5%;
+                margin: 7px;
+                padding: 6px;
+            }
+            
+            .send-btn {
+                /* border: 2px solid #c7123191;
+    width: 100%;
+    padding: 10px; */
+                /* background: none; */
+            }
+            
+            .user-details-group button {
+                border: 2px solid #c7123191;
+                width: 80%;
+                padding: 12px;
+                background: none;
+                color: white;
+                margin: 7px;
+            }
+            
+            .container3 {
+                margin: 0px;
+            }
+            
+            .container4 {
+                background: black;
+                background-size: cover;
+                background-blend-mode: darken;
+                align-items: center;
+                justify-content: center;
+                margin: 0px;
+            }
+            
+            .logo-footer {
+                justify-content: center;
+                /* background-color: red; */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0px;
+                transform: translate(-14px, 0px);
+            }
+            
+            .logo-footer img {
+                width: 15%;
+                height: 180px;
+                transform: translate(0px, -20px);
+            }
+            
+            .logo-footer span {
+                color: white;
+                transform: translate(8px, -85px);
+                font-size: 22px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            .address-footer {
+                color: white;
+                display: flex;
+                justify-content: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+                transform: translate(0px, -25px);
+                line-height: 22px;
+            }
+            
+            .socialMedia-icons-footer {
+                display: flex;
+                justify-content: center;
+                margin: 0px 0px 100px 0px;
+            }
+            
+            .Media-icons-footer {
+                display: flex;
+                width: 2%;
+                margin: 6px;
+            }
+            
+            .end-text-footer {
+                color: #c7123191;
+                display: flex;
+                justify-content: center;
+                margin: 26px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
